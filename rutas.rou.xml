@@ -21,6 +21,12 @@
     <route id="route_8" edges="537198009#1 537198009#2 240723858 500478327#0 53010953#0" color="blue"/>
     <route id="route_9" edges="537198009#1 537198009#2 240723858 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
     
+    <route id="route_23" edges="120392570#1 120392570#2 109595997#0 109595997#1 53010953#0" color="blue"/>
+    <route id="route_24" edges="120392570#1 -52325582#6 -52325582#5 -52325582#4" color="blue"/>
+    <route id="route_25" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 559553102 -553265819#1" color="blue"/>
+    <route id="route_26" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 561109442 527769688 -537198009#2 -537198009#1" color="blue"/>
+    <route id="route_27" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
+    
     <vehicle id="vehicle_001" type="Bus" depart="30" route="route_0" color="green"/>
     <vehicle id="vehicle_002" type="Car" depart="30" route="route_0" color="yellow"/>
     <vehicle id="vehicle_003" type="Car" depart="30" route="route_0" color="yellow"/>
@@ -90,12 +96,7 @@
     <vehicle id="vehicle_160" type="Car" depart="497" route="route_8" color="white"/>
     
     <!--Sandro-->
-    <route id="route_23" edges="120392570#1 120392570#2 109595997#0 109595997#1 53010953#0" color="blue"/>
-    <route id="route_24" edges="120392570#1 -52325582#6 -52325582#5 -52325582#4" color="blue"/>
-    <route id="route_25" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 559553102 -553265819#1" color="blue"/>
-    <route id="route_26" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 561109442 527769688 -537198009#2 -537198009#1" color="blue"/>
-    <route id="route_27" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
-    
+   
     <vehicle id="vehicle_400" type="Bus" depart="1" route="route_23" color="green"/>
     
     <vehicle id="vehicle_401" type="Car" depart="10" route="route_24" color="white"/>
