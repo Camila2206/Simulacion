@@ -59,8 +59,8 @@
     <vehicle id="vehicle_009" type="Car" depart="9" route="route_3" color="white"/>
     <vehicle id="vehicle_010" type="Car" depart="10" route="route_3" color="yellow"/>
     <vehicle id="vehicle_401" type="Car" depart="10" route="route_24" color="white"/>
-    <vehicle id="vehicle_011" type="Car" depart="11" route="route_7" color="white"/>
     <vehicle id="vehicle_300" type="Car" depart="10" route="route_13" color="green"/>
+    <vehicle id="vehicle_011" type="Car" depart="11" route="route_7" color="white"/>
     <vehicle id="vehicle_012" type="Car" depart="12" route="route_3" color="yellow"/>
     <vehicle id="vehicle_013" type="Car" depart="13" route="route_3" color="white"/>
     <vehicle id="vehicle_102" type="Car" depart="13" route="route_9" color="yellow"/>
