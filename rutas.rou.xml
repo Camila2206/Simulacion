@@ -195,6 +195,7 @@
     <vehicle id="vehicle_121" type="Bus" depart="164" route="route_8" color="green"/>
     <vehicle id="vehicle_122" type="Car" depart="173" route="route_9" color="yellow"/>
     <vehicle id="vehicle_123" type="Car" depart="188" route="route_12" color="white"/>
+    <vehicle id="vehicle_200" type="Bus" depart="200" route="route_0" color="green"/>
     <vehicle id="vehicle_412" type="Bus" depart="200" route="route_23" color="green"/>
     <vehicle id="vehicle_124" type="Car" depart="204" route="route_8" color="yellow"/>
     <vehicle id="vehicle_413" type="Car" depart="220" route="route_24" color="white"/>
@@ -214,6 +215,7 @@
     <vehicle id="vehicle_134" type="Car" depart="292" route="route_8" color="yellow"/>
     <vehicle id="vehicle_135" type="Car" depart="295" route="route_8" color="yellow"/>
     <vehicle id="vehicle_418" type="Car" depart="300" route="route_25" color="white"/>
+     <vehicle id="vehicle_300" type="Bus" depart="300" route="route_1" color="green"/>
     <vehicle id="vehicle_419" type="Car" depart="300" route="route_23" color="yellow"/>
     <vehicle id="vehicle_420" type="Car" depart="300" route="route_26" color="yellow"/>
     <vehicle id="vehicle_421" type="Car" depart="300" route="route_23" color="white"/>
@@ -237,6 +239,7 @@
     <vehicle id="vehicle_428" type="Car" depart="380" route="route_25" color="yellow"/>
     <vehicle id="vehicle_147" type="Car" depart="382" route="route_8" color="white"/>
     <vehicle id="vehicle_429" type="Bus" depart="400" route="route_23" color="green"/>
+    <vehicle id="vehicle_400" type="Bus" depart="400" route="route_0" color="green"/>
     <vehicle id="vehicle_148" type="Car" depart="404" route="route_9" color="white"/>
     <vehicle id="vehicle_149" type="Car" depart="412" route="route_8" color="yellow"/>
     <vehicle id="vehicle_150" type="Car" depart="415" route="route_8" color="white"/>
@@ -255,6 +258,7 @@
     <vehicle id="vehicle_434" type="Car" depart="490" route="route_23" color="yellow"/>
     <vehicle id="vehicle_159" type="Bus" depart="493" route="route_8" color="green"/>
     <vehicle id="vehicle_160" type="Car" depart="497" route="route_8" color="white"/>
+    <vehicle id="vehicle_500" type="Bus" depart="500" route="route_1" color="green"/>
     
     <!--Jonnathan-->
     
