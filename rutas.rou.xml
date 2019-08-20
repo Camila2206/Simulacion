@@ -2,8 +2,8 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     
-    <vType accel="1.0" decel="5.0" id="Car" length="12.0" maxSpeed="50.0" sigma="0.0"/>
-    <vType accel="1.0" decel="5.0" id="Bus" length="20.0" maxSpeed="10.0" sigma="0.0"/>
+    <vType accel="1.0" decel="5.0" id="Car" length="5.0" maxSpeed="50.0" sigma="0.0"/>
+    <vType accel="1.0" decel="5.0" id="Bus" length="10.0" maxSpeed="10.0" sigma="0.0"/>
     
     <route id="route_0" edges="32695337#3 32695337#4 32695337#5 32695337#6 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
     <route id="route_1" edges="32695337#3 32695337#4 32695337#5 32695337#6 561109442 527769688 -537198009#2 -537198009#1" color="blue"/>
@@ -18,6 +18,16 @@
     <route id="route_10" edges="537198009#1 537198009#2 240723858 81460383#0 553272121 -515622705#2" color="blue"/>
     <route id="route_11" edges="537198009#1 537198009#2 240723858 81460383#0 81460383#1 527769699#0 -527769693 -52325582#6 -52325582#5 -52325582#4" color="blue"/>
     <route id="route_12" edges="537198009#1 537198009#2 240723858 500478327#0 500478327#1 559553102 -553265819#1" color="blue"/>
+   
+   <!--Rutas Jonnathan-->
+    <route id="route_13" edges="553265819#1 559553100 527769688 -537198009#2 -537198009#1" color="blue"/>
+    <route id="route_14" edges="553265819#1 559553100 527769689 81460383#0 553272121 -515622705#2" color="blue"/>
+    <route id="route_15" edges="553265819#1 559553100 527769689 81460383#0 81460383#1 527769699#0 53138363#0" color="blue"/>
+    <route id="route_16" edges="553265819#1 559553100 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
+    <route id="route_17" edges="553265819#1 559553100 527769689 81460383#0 81460383#1 527769699#0 -527769693 -52325582#6 -52325582#5 -52325582#4" color="blue"/>
+    <route id="route_18" edges="553265819#1 559553100 527769689 81460383#0 81460383#1 527769699#0 -527769693 148619329#0" color="blue"/>
+    <route id="route_19" edges="553265819#1 559553100 527769689 500478327#0 53010953#0" color="blue"/>
+
     <route id="route_8" edges="537198009#1 537198009#2 240723858 500478327#0 53010953#0" color="blue"/>
     <route id="route_9" edges="537198009#1 537198009#2 240723858 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
     
@@ -27,6 +37,7 @@
     <route id="route_26" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 561109442 527769688 -537198009#2 -537198009#1" color="blue"/>
     <route id="route_27" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
     
+
     <vehicle id="vehicle_001" type="Bus" depart="30" route="route_0" color="green"/>
     <vehicle id="vehicle_002" type="Car" depart="30" route="route_0" color="yellow"/>
     <vehicle id="vehicle_003" type="Car" depart="30" route="route_0" color="yellow"/>
@@ -138,4 +149,43 @@
     <vehicle id="vehicle_432" type="Car" depart="460" route="route_23" color="yellow"/>
     <vehicle id="vehicle_433" type="Car" depart="490" route="route_24" color="white"/>
     <vehicle id="vehicle_434" type="Car" depart="490" route="route_23" color="yellow"/>
+
+
+    <!--Jonnathan-->
+    
+    <vehicle id="vehicle_300" type="Car" depart="10" route="route_13" color="green"/>
+    <vehicle id="vehicle_301" type="Car" depart="30" route="route_14" color="yellow"/>
+    <vehicle id="vehicle_302" type="Car" depart="50" route="route_15" color="yellow"/>
+    <vehicle id="vehicle_303" type="Car" depart="70" route="route_16" color="yellow"/>
+    <vehicle id="vehicle_304" type="Car" depart="90" route="route_17" color="yellow"/>
+    <vehicle id="vehicle_305" type="Car" depart="110" route="route_18" color="yellow"/>
+    <vehicle id="vehicle_306" type="Car" depart="130" route="route_19" color="yellow"/>
+
+    <vehicle id="vehicle_307" type="Car" depart="150" route="route_13" color="yellow"/>
+    <vehicle id="vehicle_308" type="Car" depart="170" route="route_14" color="yellow"/>
+    <vehicle id="vehicle_309" type="Car" depart="190" route="route_15" color="yellow"/>
+    <vehicle id="vehicle_310" type="Car" depart="310" route="route_16" color="yellow"/>
+    <vehicle id="vehicle_311" type="Car" depart="330" route="route_17" color="yellow"/>
+    <vehicle id="vehicle_312" type="Car" depart="350" route="route_18" color="yellow"/>
+    <vehicle id="vehicle_313" type="Car" depart="370" route="route_19" color="yellow"/>
+
+    <vehicle id="vehicle_314" type="Car" depart="390" route="route_13" color="yellow"/>
+    <vehicle id="vehicle_315" type="Car" depart="410" route="route_14" color="yellow"/>
+    <vehicle id="vehicle_316" type="Car" depart="430" route="route_15" color="yellow"/>
+    <vehicle id="vehicle_317" type="Car" depart="450" route="route_16" color="yellow"/>
+    <vehicle id="vehicle_318" type="Car" depart="470" route="route_17" color="yellow"/>
+    <vehicle id="vehicle_319" type="Car" depart="490" route="route_18" color="yellow"/>
+    <vehicle id="vehicle_320" type="Car" depart="510" route="route_19" color="yellow"/>
+
+    <vehicle id="vehicle_321" type="Car" depart="530" route="route_13" color="yellow"/>
+    <vehicle id="vehicle_322" type="Car" depart="550" route="route_14" color="yellow"/>
+    <vehicle id="vehicle_323" type="Car" depart="570" route="route_15" color="yellow"/>
+    <vehicle id="vehicle_324" type="Car" depart="590" route="route_16" color="yellow"/>
+    <vehicle id="vehicle_325" type="Car" depart="610" route="route_17" color="yellow"/>
+    <vehicle id="vehicle_326" type="Car" depart="630" route="route_18" color="yellow"/>
+    <vehicle id="vehicle_327" type="Car" depart="650" route="route_19" color="yellow"/>
+
+    <vehicle id="vehicle_328" type="Car" depart="670" route="route_13" color="yellow"/>
+    <vehicle id="vehicle_329" type="Car" depart="690" route="route_14" color="yellow"/>
+    <vehicle id="vehicle_330" type="Car" depart="710" route="route_15" color="yellow"/>
 </routes>
