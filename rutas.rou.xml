@@ -225,7 +225,7 @@
     <vehicle id="vehicle_147" type="Car" depart="382" route="route_8" color="white"/>
     <vehicle id="vehicle_314" type="Car" depart="390" route="route_13" color="yellow"/>
     <vehicle id="vehicle_429" type="Bus" depart="400" route="route_23" color="green"/>
-    <vehicle id="vehicle_400" type="Bus" depart="400" route="route_0" color="green"/>
+    <vehicle id="vehicle_099" type="Bus" depart="400" route="route_0" color="green"/>
     <vehicle id="vehicle_148" type="Car" depart="404" route="route_9" color="white"/>
     <vehicle id="vehicle_315" type="Car" depart="410" route="route_14" color="yellow"/>
     <vehicle id="vehicle_149" type="Car" depart="412" route="route_8" color="yellow"/>
