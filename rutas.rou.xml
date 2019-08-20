@@ -32,6 +32,13 @@
     
   
     <vehicle id="vehicle_400" type="Bus" depart="1" route="route_23" color="green"/>
+    <vehicle id="vehicle_001" type="Bus" depart="1" route="route_0" color="green"/>
+    <vehicle id="vehicle_002" type="Car" depart="2" route="route_0" color="white"/>
+    <vehicle id="vehicle_003" type="Car" depart="3" route="route_6" color="white"/>
+    <vehicle id="vehicle_004" type="Car" depart="4" route="route_0" color="yellow"/>
+    <vehicle id="vehicle_005" type="Car" depart="5" route="route_2" color="white"/>
+    
+    
     <vehicle id="vehicle_101" type="Car" depart="05" route="route_8" color="white"/>
     <vehicle id="vehicle_401" type="Car" depart="10" route="route_24" color="white"/>
     <vehicle id="vehicle_102" type="Car" depart="13" route="route_9" color="yellow"/>
