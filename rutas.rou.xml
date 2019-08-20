@@ -41,13 +41,13 @@
     <route id="route_27" edges="120392570#1 120392570#2 109595997#0 109595997#1 500478327#1 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
     
   
-    <vehicle id="vehicle_400" type="Bus" depart="1" route="route_23" color="green"/>
+    
     <vehicle id="vehicle_001" type="Bus" depart="1" route="route_0" color="green"/>
     <vehicle id="vehicle_002" type="Car" depart="2" route="route_0" color="white"/>
     <vehicle id="vehicle_003" type="Car" depart="3" route="route_6" color="white"/>
     <vehicle id="vehicle_004" type="Car" depart="4" route="route_0" color="yellow"/>
     <vehicle id="vehicle_005" type="Car" depart="5" route="route_2" color="white"/>
-    
+    <vehicle id="vehicle_400" type="Bus" depart="1" route="route_23" color="green"/>
     
     <vehicle id="vehicle_101" type="Car" depart="05" route="route_8" color="white"/>
     
@@ -113,7 +113,13 @@
     <vehicle id="vehicle_044" type="Car" depart="44" route="route_22" color="white"/>
     <vehicle id="vehicle_045" type="Car" depart="45" route="route_0" color="white"/>
     <vehicle id="vehicle_105" type="Car" depart="45" route="route_8" color="yellow"/>
-    
+    <vehicle id="vehicle_046" type="Car" depart="46" route="route_2" color="white"/>
+    <vehicle id="vehicle_047" type="Car" depart="47" route="route_0" color="yellow"/>
+    <vehicle id="vehicle_048" type="Car" depart="48" route="route_3" color="yellow"/>
+    <vehicle id="vehicle_049" type="Car" depart="49" route="route_2" color="yellow"/>
+    <vehicle id="vehicle_050" type="Car" depart="50" route="route_3" color="white"/>
+    <vehicle id="vehicle_403" type="Car" depart="50" route="route_23" color="yellow"/>
+    <vehicle id="vehicle_404" type="Car" depart="50" route="route_25" color="white"/>
     <vehicle id="vehicle_403" type="Car" depart="50" route="route_23" color="yellow"/>
     <vehicle id="vehicle_302" type="Car" depart="50" route="route_15" color="yellow"/>
     <vehicle id="vehicle_404" type="Car" depart="50" route="route_25" color="white"/>
