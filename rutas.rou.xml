@@ -28,7 +28,7 @@
     <vehicle id="vehicle_005" type="Car" depart="30" route="route_0" color="yellow"/>
     <vehicle id="vehicle_006" type="Car" depart="30" route="route_0" color="yellow"/>
     
-    <vehicle id="vehicle_101" type="Car" depart="55" route="route_8" color="white"/>
+    <vehicle id="vehicle_101" type="Car" depart="05" route="route_8" color="white"/>
     <vehicle id="vehicle_102" type="Car" depart="13" route="route_9" color="yellow"/>
     <vehicle id="vehicle_103" type="Car" depart="28" route="route_8" color="white"/>
     <vehicle id="vehicle_104" type="Car" depart="32" route="route_8" color="yellow"/>
