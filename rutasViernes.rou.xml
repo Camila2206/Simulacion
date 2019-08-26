@@ -178,7 +178,7 @@
     <vehicle id="vehicle_099" type="Car" depart="99" route="route_7" color="white"/>
     <vehicle id="vehicle_100" type="Bus" depart="100" route="route_1" color="green"/>
     
-    <vehicle id="vehicle_400" type="Car" depart="100" route="route_7" color="white"/>
+    <!--<vehicle id="vehicle_400" type="Car" depart="100" route="route_7" color="white"/>-->
     <vehicle id="vehicle_416" type="Car" depart="100" route="route_23" color="yellow"/>
     <vehicle id="vehicle_401" type="Car" depart="101" route="route_7" color="white"/>
     <vehicle id="vehicle_402" type="Car" depart="102" route="route_7" color="white"/>
