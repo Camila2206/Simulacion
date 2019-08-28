@@ -1,5 +1,4 @@
 
-
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     
     <vType accel="1.0" decel="5.0" id="Car" length="5.0" maxSpeed="50.0" sigma="0.0"/>
@@ -7,8 +6,6 @@
     
     <route id="route_0" edges="32695337#3 32695337#4 32695337#5 32695337#6 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2" color="blue"/>
     <route id="route_1" edges="32695337#3 32695337#4 32695337#5 32695337#6 561109442 527769688 -537198009#2 -537198009#1" color="blue"/>
-    
-    <route id="route_2" edges="537198006#0 537198006#1 537198006#2 130889358 130889390#2 130889390#3" color="blue"/>
    
     <route id="route_3" edges="32695337#3 32695337#4 32695337#5 32695337#6 559553102 -553265819#1" color="blue"/>
     <route id="route_4" edges="32695337#3 32695337#4 32695337#5 32695337#6 561109442 527769689 500478327#0 53010953#0" color="blue"/>
@@ -49,7 +46,7 @@
     
     
     <vehicle id="vehicle_001" type="Bus" depart="1" route="route_0" color="green"/>
-    <vehicle id="vehicle_400" type="Bus" depart="1" route="route_23" color="green"/>
+    <vehicle id="vehicle_a400" type="Bus" depart="1" route="route_23" color="green"/>
     
     <vehicle id="vehicle_002" type="Car" depart="2" route="route_0" color="white"/>
     <vehicle id="vehicle_101" type="Car" depart="002" route="route_8" color="white"/>
@@ -94,13 +91,8 @@
     <vehicle id="vehicle_027" type="Car" depart="27" route="route_6" color="white"/>
     <vehicle id="vehicle_028" type="Car" depart="28" route="route_6" color="yellow"/>
     
-    <vehicle id="vehicle_029" type="Car" depart="29" route="route_2" color="white"/>
-    <vehicle id="vehicle_030" type="Car" depart="30" route="route_2" color="white"/>
     <vehicle id="vehicle_j_302" type="Car" depart="30" route="route_15" color="white"/>
-    <vehicle id="vehicle_031" type="Car" depart="31" route="route_2" color="yellow"/>
-    <vehicle id="vehicle_032" type="Car" depart="32" route="route_2" color="white"/>
     <vehicle id="vehicle_106" type="Car" depart="032" route="route_8" color="yellow"/>
-    <vehicle id="vehicle_033" type="Car" depart="33" route="route_2" color="white"/>
     
     <vehicle id="vehicle_034" type="Car" depart="34" route="route_0" color="yellow"/>
     <vehicle id="vehicle_035" type="Car" depart="35" route="route_0" color="white"/>
@@ -177,20 +169,9 @@
     <vehicle id="vehicle_087" type="Car" depart="87" route="route_5" color="white"/>
     <vehicle id="vehicle_088" type="Car" depart="88" route="route_5" color="yellow"/>
     <vehicle id="vehicle_089" type="Car" depart="89" route="route_5" color="white"/>
-
-    <vehicle id="vehicle_090" type="Car" depart="90" route="route_2" color="yellow"/>
-    <vehicle id="vehicle_091" type="Car" depart="91" route="route_2" color="white"/>
-    <vehicle id="vehicle_092" type="Car" depart="92" route="route_2" color="white"/>
-    <vehicle id="vehicle_093" type="Car" depart="93" route="route_2" color="yellow"/>
-    <vehicle id="vehicle_094" type="Car" depart="94" route="route_2" color="white"/>
-    <vehicle id="vehicle_095" type="Car" depart="95" route="route_2" color="white"/>
-    <vehicle id="vehicle_096" type="Car" depart="96" route="route_2" color="white"/>
     <vehicle id="vehicle_116" type="Car" depart="096" route="route_8" color="yellow"/>
     <vehicle id="vehicle_117" type="Car" depart="097" route="route_8" color="white"/>
     
-    
-    <vehicle id="vehicle_097" type="Car" depart="97" route="route_2" color="yellow"/>
-    <vehicle id="vehicle_098" type="Car" depart="98" route="route_2" color="white"/>
     <vehicle id="vehicle_118" type="Car" depart="098" route="route_8" color="yellow"/>
     <vehicle id="vehicle_099" type="Car" depart="99" route="route_4" color="white"/>
     <vehicle id="vehicle_100" type="Car" depart="100" route="route_4" color="white"/>
@@ -265,10 +246,7 @@
     <vehicle id="vehicle_j_309" type="Car" depart="150" route="route_16" color="yellow"/>
     <vehicle id="vehicle_551" type="Car" depart="151" route="route_6" color="white"/>
     <vehicle id="vehicle_552" type="Car" depart="152" route="route_6" color="white"/>
-    <vehicle id="vehicle_553" type="Car" depart="153" route="route_2" color="white"/>
     <vehicle id="vehicle_128" type="Car" depart="153" route="route_8" color="yellow"/>
-    <vehicle id="vehicle_554" type="Car" depart="154" route="route_2" color="white"/>
-    <vehicle id="vehicle_555" type="Car" depart="155" route="route_2" color="yellow"/>
     <vehicle id="vehicle_556" type="Car" depart="156" route="route_0" color="white"/>
     <vehicle id="vehicle_557" type="Car" depart="157" route="route_0" color="white"/>
     <vehicle id="vehicle_558" type="Car" depart="158" route="route_0" color="yellow"/>
@@ -470,9 +448,7 @@
     <vehicle id="vehicle_467" type="Car" depart="495" route="route_24" color="white"/>
     <vehicle id="vehicle_183" type="Car" depart="496" route="route_8" color="white"/>
     <vehicle id="vehicle_184" type="Car" depart="500" route="route_8" color="white"/>
-    <vehicle id="vehicle_468" type="Car" depart="500" route="route_23" color="yellow"/>
-    
-    
+    <vehicle id="vehicle_468" type="Car" depart="500" route="route_23" color="yellow"/>    
     <vehicle id="vehicle_611" type="Bus" depart="500" route="route_1" color="green"/>
     <vehicle id="vehicle_j_329" type="Car" depart="500" route="route_13" color="yellow"/>
 
