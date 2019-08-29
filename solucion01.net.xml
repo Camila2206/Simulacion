@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 08/28/19 18:13:26 by Eclipse SUMO netedit Version 1.2.0
+<!-- generated on 08/28/19 20:37:45 by Eclipse SUMO netedit Version 1.2.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="C:\Users\Usuario\Downloads\solucion01.net.xml"/>
+        <sumo-net-file value="D:\Proyectos\Sumo\Simulacion\solucion01.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\Usuario\Downloads\solucion01.net.xml"/>
+        <output-file value="D:\Proyectos\Sumo\Simulacion\solucion01.net.xml"/>
     </output>
 
     <processing>
@@ -27,6 +27,11 @@
     <pedestrian>
         <walkingareas value="false"/>
     </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\Proyectos\Sumo\Simulacion\paradaBuses.xml"/>
+        <route-files value="D:\Proyectos\Sumo\Simulacion\rutasBuses.xml"/>
+    </netedit>
 
 </configuration>
 -->

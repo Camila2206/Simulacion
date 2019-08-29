@@ -1,0 +1,13 @@
+<configuration>
+    <input>
+       <net-file value="solucion01.net.xml"/>
+       <additional-files value="paradaBuses.xml"/>
+    </input>
+    <output>
+        <emission-output value="emisiones.xml"></emission-output>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+    </time>
+</configuration>

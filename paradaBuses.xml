@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/28/19 20:28:32 by Eclipse SUMO netedit Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\Proyectos\Sumo\Simulacion\solucion01.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Proyectos\Sumo\Simulacion\solucion01.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\Proyectos\Sumo\Simulacion\paradaBuses.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+<!-- TIPO DE VEHICULO -->
+    <vType  decel="5.0" id="Car" vClass="private" length="5.0"   speedFactor="normc(1,0.1,0.2,2)" maxSpeed="20.0" sigma="0.0" color="blue" emissionClass="HBEFA3/LDV_G_EU0"/>
+    <vType  decel="5.0" id="Taxi" vClass="taxi"  length="5.0" speedFactor="normc(1,0.1,0.2,2)" maxSpeed="20.0" sigma="0.0" color="1,1,0" emissionClass="HBEFA3/LDV_G_EU0"/>
+    <vType  decel="5.0" id="Moto" vClass="motorcycle"  length="5.0" speedFactor="normc(1,0.1,0.2,2)" maxSpeed="20.0" sigma="0.0" color="blue" emissionClass="HBEFA3/HDV_D_EU0"/>
+    <vType  decel="5.0" id="BusVerde" vClass="bus" length="7.0" speedFactor="normc(1,0.1,0.2,2)" maxSpeed="20.0" sigma="0.0" color="green" emissionClass="HBEFA3/HDV_D_EU0"/>
+    <vType  decel="5.0" id="Camion" vClass="trailer" length="5.0" speedFactor="normc(1,0.1,0.2,2)" maxSpeed="20.0" sigma="0.0" color="orange" emissionClass="HBEFA3/HDV_D_EU0"/>
+    <vType  decel="5.0" id="Electrico" vClass="taxi" length="5.0"   speedFactor="normc(1,0.1,0.2,2)" maxSpeed="20.0" sigma="0.0" color="7,172,167"/>
+
+<!-- PARADA DE BUSES -->
+    <busStop id="busStop_120392570#0_0_9" lane="120392570#0_0" startPos="71.34" endPos="81.34"/>
+    <busStop id="busStop_131158485#0_0_7" lane="131158485#0_0" startPos="25.84" endPos="35.84"/>
+    <busStop id="busStop_131158486_0_8" lane="131158486_0" startPos="23.04" endPos="33.04"/>
+    <busStop id="busStop_32695337#10_0_0" lane="32695337#10_0" startPos="3.88" endPos="13.88"/>
+    <busStop id="busStop_32695337#13_0_1" lane="32695337#13_0" startPos="3.65" endPos="13.65"/>
+    <busStop id="busStop_527769699#3_0_4" lane="527769699#3_0" startPos="14.02" endPos="24.02"/>
+    <busStop id="busStop_527769700#5_0_6" lane="527769700#5_0" startPos="3.05" endPos="13.05"/>
+    <busStop id="busStop_527769701#2_0_5" lane="527769701#2_0" startPos="144.48" endPos="154.48"/>
+    <busStop id="busStop_53010953#0_0_2" lane="53010953#0_0" startPos="0.06" endPos="10.06"/>
+    <busStop id="busStop_53010953#0_0_3" lane="53010953#0_0" startPos="150.43" endPos="160.43"/>
+
+
+<!-- RUTAS -->
+    <!--Camila-->
+    <routeDistribution id="routeCamila">
+        <route id="route_0" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 559553102 -553265819#1 -553265819#0 -553265820" color="blue" probability = "0.1"/>
+        <route id="route_1" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 561109442 527769688 -537198009#6 -537198009#5" color="blue" probability = "0.1"/>
+        <route id="route_2" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 561109442 527769689 81460383#0 553272121 -515622705#2" color="blue" probability = "0.1"/>
+        
+        <route id="route_3" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 561109442 527769689 81460383#0 81460383#1 527769699#0 53138363#0 53138363#1" color="blue" probability = "0.1"/>
+        
+        <route id="route_4" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 527769699#3 527769701#0 527769701#1 527769701#2 527769700#0 527769700#1 527769700#2 527769700#3 527769700#4 527769700#5" color="blue" probability = "0.1"/>
+        <route id="route_5" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 -131166935#0 52325512#0 52325512#1 52325512#2 -52325512#2" color="blue" probability = "0.1"/>
+        <route id="route_6" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 561109442 527769689 500478327#0 53010953#0 53010953#1 53010953#2 53010953#3" color="blue" probability = "0.1"/>
+    </routeDistribution>
+    
+    <!--Jonnathan-->
+    <routeDistribution id="routeJonnathan">
+        <route id="route_7" edges="553265820 553265819#0 553265819#1 559553100 527769688 -537198009#6 -537198009#5 -537198009#4" color="blue" probability = "0.186905038"/>
+        <route id="route_8" edges="553265820 553265819#0 553265819#1 559553100 527769689 81460383#0 553272121 -515622705#2" color="blue" probability = "0.186905038"/>
+        <route id="route_9" edges="553265820 553265819#0 553265819#1 559553100 527769689 81460383#0 81460383#1 527769699#0 527769699#1 53138365#0 53138365#1 -53138366#9 -53138366#8 -53138366#7 -53138366#6 -53138366#5 -53138366#4 -53138366#3 -53138366#2" color="blue" probability = "0.186905038"/>
+        <route id="route_10" edges="553265820 553265819#0 553265819#1 559553100 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 527769699#3 527769701#0 527769701#1 527769701#2 527769700#0 527769700#1 527769700#2 527769700#3 527769700#4 527769700#5 527769700#6 527769690 527769692 104223676#0 104223676#1" color="blue" probability = "0.186905038"/>
+        <route id="route_11" edges="553265820 553265819#0 553265819#1 559553100 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 -131166935#0 52325512#0 53083180#1 52325511#1 52325511#2 52325511#3 52325511#4" color="blue" probability = "0.186905038"/>
+        <route id="route_12" edges="553265820 553265819#0 553265819#1 559553100 527769689 500478327#0 53010953#0 53010953#1 53010953#2 53010953#3" color="blue" probability = "0.186905038"/>
+        <route id="route_13" edges="553265820 553265819#0 553265819#1 559553100 527769689 500478327#0 500478327#1 559553102 -553265819#1 -553265819#0 -553265820 -32695043#2" color="blue" probability = "0.186905038"/>
+    </routeDistribution>
+
+    <!--Franco-->
+    <routeDistribution id="routeFranco">
+        <route id="route_14" edges="537198009#2 537198009#3 537198009#4 537198009#5 537198009#6 240723858 81460383#0 553272121 -515622705#2 -53138368 53138363#2 -53138366#10 -53138366#9 -131166935#2 -148645142#1 -148645142#0" color="blue" probability = "0.0115"/><!--Iglesia-->
+        <route id="route_15" edges="537198009#2 537198009#3 537198009#4 537198009#5 537198009#6 240723858 81460383#0 81460383#1 527769699#0 53138363#0 -148645142#3 -148645142#2" color="blue" probability = "0.01"/><!--Construccion-->
+        <route id="route_16" edges="537198009#2 537198009#3 537198009#4 537198009#5 537198009#6 240723858 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 527769699#3 527769701#0 -515714510#2 -515714510#1 515714510#1" color="blue" probability = "0.004"/><!--Sig-->
+        <route id="route_17" edges="537198009#2 537198009#3 537198009#4 537198009#5 537198009#6 240723858 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 527769699#3 527769701#0 527769701#1 527769701#2 527769700#0 527769700#1 527769700#2 527769700#3 527769700#4 527769700#5" color="blue" probability = "0.1"/><!--via a Cuenca-->
+        <route id="route_18" edges="537198009#2 537198009#3 537198009#4 537198009#5 537198009#6 240723858 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 -131166935#0 52325512#0 52325512#1 52325512#2 52325512#3 -52325582#8 -52325582#7" color="blue" probability = "0.0113"/><!--Mercado Pitas-->
+        <route id="route_19" edges="537198009#2 537198009#3 537198009#4 537198009#5 537198009#6 240723858 500478327#0 53010953#0 53010953#1 53010953#2 53010953#3" color="blue" probability = "0.8532"/><!--Terminal-->
+        <route id="route_20" edges="537198009#2 537198009#3 537198009#4 537198009#5 537198009#6 240723858 500478327#0 500478327#1 561109442 527769688 -537198009#6 -537198009#5 -537198009#4 -537198009#3 -537198009#2" color="blue" probability = "0.01"/><!--Sauses-->
+    </routeDistribution>
+    
+    <!--Sandro-->
+    <routeDistribution id="routeSandro">
+        <route id="route_21" edges="131158485#0 131158485#1 131158486 120392570#0 52325512#0 52325512#1 52325512#2 52325530#0 52325530#1 52325510#2 52325510#3 52325510#4 52325510#5" color="blue" probability = "0.186905038"/>
+        <route id="route_22" edges="131158485#0 131158485#1 131158486 120392570#0 120392570#1 120392570#2 109595997 53010953#0 53010953#1 53010953#2 53010953#3" color="blue" probability = "0.186905038"/>
+        <route id="route_23" edges="131158485#0 131158485#1 131158486 120392570#0 120392570#1 120392570#2 109595997 500478327#1 559553102 -553265819#1 32695343#0" color="blue" probability = "0.186905038"/>
+        <route id="route_24" edges="131158485#0 131158485#1 131158486 120392570#0 120392570#1 120392570#2 109595997 500478327#1 561109442 527769688 -537198009#6 -537198009#5 -537198009#4 -537198009#3 -537198009#2" color="blue" probability = "0.186905038"/>
+        <route id="route_25" edges="131158485#0 131158485#1 131158486 120392570#0 120392570#1 120392570#2 109595997 500478327#1 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 527769699#3 527769701#0 527769701#1 527769701#2 527769700#0 527769700#1 527769700#2 527769700#3 527769700#4 527769700#5" color="blue" probability = "0.186905038"/>
+    </routeDistribution>
+
+    
+    
+    <!--Solucion-->
+    <route id="route_26" edges="52325582#4 52325582#5 52325582#6 52325582#7 52325582#8 52325582#9 52325582#10 52325582#11 52325582#12 52325582#13 120392570#2 109595997 53010953#0 53010953#1 53010953#2 53010953#3" color="blue"/>
+    <route id="route_27" edges="52325582#4 52325582#5 52325582#6 52325582#7 52325582#8 52325582#9 52325582#10 52325582#11 52325582#12 52325582#13 120392570#2 109595997 500478327#1 559553102 -553265819#1 -553265819#0 -553265820" color="blue"/>
+    <route id="route_28" edges="52325582#4 52325582#5 52325582#6 52325582#7 52325582#8 52325582#9 52325582#10 52325582#11 52325582#12 52325582#13 120392570#2 109595997 500478327#1 561109442 527769688 -537198009#6 -537198009#5 -537198009#4 -537198009#3 -537198009#2" color="blue"/>
+    <route id="route_29" edges="-52325582#6 -52325582#5 -52325582#4 -52325582#3 -52325582#2 -131157626#2 -515622694#1 -515622694#0 515622695#0 515622695#1 515622695#2 52325536#1 148996033 -104223677 -553269534#1 -527769697 515622686" color="blue"/>
+    <route id="route_30" edges="527769698 527769697 553269534#1 104223677 -148996033 -52325536#1 -515622695#2 -515622695#1 -515622695#0 515622694#0 -131157622 52325582#3 148619309#0 148619309#1 559519494 515622691#0 52325564#0 52325564#1 515622698#0 515622698#1 515622697 -52325583#1 -515622703#3 -515622703#2 -515622703#1 -515622703#0 -52325498#2 -52325498#1 -52325498#0 163484749#0 163484749#1 553271261 32731275#1 32731275#2 32731275#3 32731275#4 32731275#5 32731275#6" color="blue"/>
+
+<!-- RUTAS BUSES -->
+    <!-- Terminal => Sauses -->
+    <route id="route_31" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 561109442 527769688 -537198009#6 -537198009#5" color="blue"/>
+    <flow id="Bus01"  type ="BusVerde" begin="0" end="5400"  route="route_31"  number="106">
+        <stop busStop="busStop_32695337#10_0_0" duration="20"/>
+        <stop busStop="busStop_32695337#13_0_1" duration="20"/>
+    </flow>
+    <!-- Sauses => Terminal -->
+    <route id="route_32" edges="537198009#2 537198009#3 537198009#4 537198009#5 537198009#6 240723858 500478327#0 53010953#0 53010953#1 53010953#2 53010953#3" color="blue"/>
+    <flow id="Bus02"  type ="BusVerde" begin="0" end="5400"  route="route_32"  number="106">
+        <stop busStop="busStop_53010953#0_0_2" duration="20"/>
+        <stop busStop="busStop_53010953#0_0_3" duration="20"/>
+    </flow>
+    <!-- Terminal => Via Cuenca -->
+    <route id="route_33" edges="32695337#0 32695337#1 32695337#2 32695337#3 32695337#4 32695337#5 32695337#6 32695337#7 32695337#8 32695337#9 32695337#10 32695337#11 32695337#12 32695337#13 561109442 527769689 81460383#0 81460383#1 527769699#0 527769699#1 527769699#2 527769699#3 527769701#0 527769701#1 527769701#2 527769700#0 527769700#1 527769700#2 527769700#3 527769700#4 527769700#5" color="blue"/>
+    <flow id="Bus03"  type ="BusVerde" begin="0" end="5400"  route="route_33"  number="106">
+        <stop busStop="busStop_527769699#3_0_4" duration="20"/>
+        <stop busStop="busStop_527769701#2_0_5" duration="20"/>
+        <stop busStop="busStop_527769700#5_0_6" duration="20"/> 
+    </flow>
+    <!-- Via Cuenca => Terminal -->
+    <route id="route_34" edges="131158485#0 131158485#1 131158486 120392570#0 120392570#1 120392570#2 109595997 53010953#0 53010953#1 53010953#2 53010953#3" color="blue"/>
+    <flow id="Bus04"  type ="BusVerde" begin="0" end="5400"  route="route_34"  number="106">
+        <stop busStop="busStop_131158485#0_0_7" duration="20"/>
+        <stop busStop="busStop_131158486_0_8" duration="20"/>
+        <stop busStop="busStop_120392570#0_0_9" duration="20"/>
+        <stop busStop="busStop_53010953#0_0_2" duration="20"/>
+        <stop busStop="busStop_53010953#0_0_3" duration="20"/> 
+    </flow>
+
+<!-- DEFINICION DE VEHICULOS -->
+    <flow id="Car01"  type ="Car" begin="0" end="5400"  route="routeCamila" number="300"/>
+    <flow id="Taxi01"  type ="Taxi" begin="0" end="5400"  route="routeCamila" number="247"/>
+    <flow id="Moto1"  type ="Moto" begin="0" end="5400"  route="routeCamila" number="48"/>
+
+    <flow id="Car02"  type ="Car" begin="0" end="5400"  route="routeJonnathan" number="300"/>
+    <flow id="Taxi02"  type ="Taxi" begin="0" end="5400"  route="routeJonnathan" number="247"/>
+    <flow id="Moto02"  type ="Moto" begin="0" end="5400"  route="routeJonnathan" number="48"/>
+
+    <flow id="Car03"  type ="Car" begin="0" end="5400"  route="routeFranco" number="300"/>
+    <flow id="Taxi03"  type ="Taxi" begin="0" end="5400"  route="routeFranco" number="247"/>
+    <flow id="Moto03"  type ="Moto" begin="0" end="5400"  route="routeFranco" number="48"/>
+
+    <flow id="Car04"  type ="Car" begin="0" end="5400"  route="routeSandro" number="300"/>
+    <flow id="Taxi04"  type ="Taxi" begin="0" end="5400"  route="routeSandro" number="247"/>
+    <flow id="Moto04"  type ="Moto" begin="0" end="5400"  route="routeSandro" number="48"/>
+
+
+    <flow id="el01"  type ="Electrico" begin="0" end="5400"  route="routeCamila"  number="2">
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="vehicleMass" value="10000"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="stoppingTreshold" value="0.1"/> 
+     </flow>
+     <flow id="el02"  type ="Electrico" begin="0" end="5400"  route="routeJonnathan"  number="2">
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="vehicleMass" value="10000"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="stoppingTreshold" value="0.1"/> 
+     </flow>
+     <flow id="el03"  type ="Electrico" begin="0" end="5400"  route="routeFranco"  number="2">
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="vehicleMass" value="10000"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="stoppingTreshold" value="0.1"/> 
+     </flow>
+     <flow id="el04"  type ="Electrico" begin="0" end="5400"  route="routeSandro"  number="2">
+        <param key="maximumBatteryCapacity" value="2000"/>
+        <param key="maximumPower" value="1000"/>
+        <param key="vehicleMass" value="10000"/>
+        <param key="frontSurfaceArea" value="5"/>
+        <param key="airDragCoefficient" value="0.6"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="radialDragCoefficient" value="0.5"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="propulsionEfficiency" value="0.9"/>
+        <param key="recuperationEfficiency" value="0.9"/>
+        <param key="stoppingTreshold" value="0.1"/> 
+     </flow>
+</additional>
